@@ -2,6 +2,8 @@ package com.baeldung.userdaomodule;
 
 import com.baeldung.daomodule.Dao;
 import com.baeldung.entitymodule.User;
+import com.baeldung.userdao.hello.Hello;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -22,6 +24,7 @@ public class UserDao implements Dao<User> {
 
     @Override
     public List<User> findAll() {
+        Hello.hello();
         return new ArrayList<>(users.values());
     }
 
