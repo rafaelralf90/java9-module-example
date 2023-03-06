@@ -1,0 +1,6 @@
+rootProject.name = 'multimodulemavenproject'
+
+include 'maven-daomodule'
+include 'maven-entitymodule'
+include 'maven-mainappmodule'
+include 'maven-userdaomodule'
